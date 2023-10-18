@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1><%= title %></h1>
+    <table>
+        <tr>
+            <th>商品名</th>
+            <th><%= item.name %></th>
+        </tr>
+        <tr>
+            <th>価格</th>
+            <th><%= item.price %></th>
+        </tr>
+        <tr>
+            <th>イメージ</th>
+            <th><img src="<%= item.image %>" alt=""></th>
+        </tr>
+    </table>
+</body>
+</html>
